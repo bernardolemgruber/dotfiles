@@ -1,0 +1,5 @@
+alias ~="cd ~";
+
+# Show or hide system files with a simple semantic command
+alias showdotfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hidedotfiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
