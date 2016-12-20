@@ -6,4 +6,4 @@ YELLOW="\[$(tput setaf 148)\]"
 ORANGE="\[$(tput setaf 178)\]"
 GRAY="\[$(tput setaf 66)\]"
 
-export PS1="${MAINGREEN}Lemgruber | ${SECONDGREEN}\A > ${YELLOW}\w ${ORANGE} ${GRAY}"
+export PS1="${MAINGREEN}\A | ${SECONDGREEN}Lemgruber > ${YELLOW}\W ${ORANGE} ${GRAY}"
